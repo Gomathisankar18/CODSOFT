@@ -1,25 +1,27 @@
-# Task 1 - Titanic Survival Prediction 🚢
+# Task 3 - Iris Flower Classification 🌸
 
 ## Objective
-To predict whether a passenger survived the Titanic disaster using Machine Learning.
+To build a Machine Learning model to classify Iris flowers into different species.
 
 ## Dataset
-Titanic dataset (Kaggle / public dataset)
+Iris dataset (from sklearn)
+
+## Classes
+- Setosa
+- Versicolor
+- Virginica
 
 ## Features Used
-- Pclass
-- Sex
-- Age
-- SibSp
-- Parch
-- Fare
-- Embarked
+- Sepal length
+- Sepal width
+- Petal length
+- Petal width
 
 ## Steps
-1. Import libraries
-2. Load dataset
-3. Handle missing values
-4. Convert categorical columns to numeric
+1. Import required libraries
+2. Load Iris dataset
+3. Data analysis (info, null check)
+4. Convert target labels into numeric
 5. Split dataset into train and test
 6. Train model (Logistic Regression)
 7. Evaluate model using accuracy score and confusion matrix
@@ -28,8 +30,7 @@ Titanic dataset (Kaggle / public dataset)
 - Logistic Regression
 
 ## Result
-Model gives good accuracy in predicting survival.
+Model achieved high accuracy in predicting Iris species.
 
 ## Author
 Sankar (CodSoft Data Science Internship)
-
